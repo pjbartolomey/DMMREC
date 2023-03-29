@@ -1,6 +1,7 @@
 # DMMREC
 Capture data program for TENMA 72-2610 (UNI-T like) Digital Multimeter.
- This program has been written to assist in the manufacture of electronic products.
+
+# This program has been written to assist in the manufacture of electronic products.
 
  I make no warranty or responsibility for anything associated with this program.
  Use it at your responsibility and risk.
