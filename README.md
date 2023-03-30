@@ -6,7 +6,7 @@ Capture data program for TENMA 72-2610 (UNI-T like) Digital Multimeter.
  I make no warranty or responsibility for anything associated with this program.
  Use it at your responsibility and risk.
 
-![Screenshot1](Screenshot/Screenshot-01.png)
+![Screenshot1](Screenshot/Screenshot-1.png)
 
 # Exec:
  This program is writen in Python 3.9.2 using pyside for GUI.
@@ -78,6 +78,6 @@ Capture data program for TENMA 72-2610 (UNI-T like) Digital Multimeter.
   - Push button start and check all points in your file (if need you can skip some with "next" button).
   - All data you see in table will be recorded when cicle ends on log file (one for every file and batch nr). 
   
-  ![Screenshot2](Screenshot/Screenshot-02.png)
+  ![Screenshot2](Screenshot/Screenshot-2.png)
 
   
