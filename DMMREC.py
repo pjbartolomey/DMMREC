@@ -76,6 +76,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         self.Button_connect.clicked.connect(self.conectar)
         self.pushButton_start.clicked.connect(self.start)
         self.pushButton_next.clicked.connect(self.next)
+        self.pushButton_cc.clicked.connect(self.clearcounters)
         self.cargarmodelos()
         self.comboBoxArt.currentIndexChanged.connect(self.ModelChanged)
         # Align text in table.
@@ -184,6 +185,17 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
             step = 0        
             self.record()
             tablavolts_chk = tablavolts_ori
+
+
+    # Routine: clear counters button routine, restart counters.
+    def clearcounters(self):
+        global Count
+        global C_Pass
+        global C_Fail
+        Count = 0
+        C_Pass = 0
+        C_Fail = 0
+        self.statusBar().showMessage('Ver: 1.0          Count: ' + str(Count) + '     Pass: ' + str(C_Pass) + '     Fail: ' + str(C_Fail))
 
 
     # Routine: which receives a list of data and adds the data to the corresponding table.
