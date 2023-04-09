@@ -266,6 +266,16 @@ class Ui_MainWindow(object):
 
         self.horizontalLayout_2 = QHBoxLayout()
         self.horizontalLayout_2.setObjectName(u"horizontalLayout_2")
+        self.pushButton_cc = QPushButton(self.centralwidget)
+        self.pushButton_cc.setObjectName(u"pushButton_cc")
+        self.pushButton_cc.setEnabled(True)
+        font2 = QFont()
+        font2.setFamily(u"Bitstream Vera Sans")
+        font2.setPointSize(8)
+        self.pushButton_cc.setFont(font2)
+
+        self.horizontalLayout_2.addWidget(self.pushButton_cc)
+
         self.horizontalSpacer_2 = QSpacerItem(268, 20, QSizePolicy.Expanding, QSizePolicy.Minimum)
 
         self.horizontalLayout_2.addItem(self.horizontalSpacer_2)
@@ -334,7 +344,7 @@ class Ui_MainWindow(object):
         ___qtablewidgetitem6.setText(QCoreApplication.translate("MainWindow", u"Derivation", None));
         ___qtablewidgetitem7 = self.tableWidget.horizontalHeaderItem(7)
         ___qtablewidgetitem7.setText(QCoreApplication.translate("MainWindow", u"Pass", None));
+        self.pushButton_cc.setText(QCoreApplication.translate("MainWindow", u"&Clear Counters", None))
         self.pushButton_start.setText(QCoreApplication.translate("MainWindow", u"S&tart", None))
         self.pushButton_next.setText(QCoreApplication.translate("MainWindow", u"N&ext", None))
     # retranslateUi
-
