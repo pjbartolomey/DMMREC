@@ -46,7 +46,7 @@ Capture data program for TENMA 72-2610 (UNI-T like) Digital Multimeter.
     This is the program file.
   - DMMREC.spec: 
     This is only for pyinstaller.
-  - DMMBREC.ui: 
+  - DMMREC.ui: 
     xml file for GUI. (I use Qt Designer to create this).
   - DMMREC1.wav: 
     Sound example for program.
